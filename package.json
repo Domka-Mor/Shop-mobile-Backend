@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "12.x",
-     "npm": "6.x"
+    "npm": "6.x"
   },
   "description": "A Node.js RESTful API Mobile shop",
   "main": "index.js",
