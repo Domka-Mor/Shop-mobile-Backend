@@ -6,10 +6,10 @@
     "npm": "6.x"
   },
   "description": "A Node.js RESTful API Mobile shop",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "author": "Dominika Moravicova",
   "license": "ISC",
