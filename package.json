@@ -1,5 +1,5 @@
 {
-  "name": "back-shop-mobile",
+  "name": "shop-mobile-backend",
   "version": "1.0.0",
   "description": "A Node.js RESTful API Mobile shop",
   "main": "index.js",
