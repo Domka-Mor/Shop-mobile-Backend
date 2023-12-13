@@ -8,9 +8,8 @@ require("dotenv").config();
 const productRoutes = require("./api/routes/products");
 const orderRoutes = require("./api/routes/orders");
 const userRoutes = require('./api/routes/user');
-
 mongoose.connect(
-  "mongodb+srv://Dominika:dominika0901@mobile-shop.drfan.mongodb.net/mobile-shop?retryWrites=true&w=majority",
+  "mongodb+srv://dominikamoravicova:"+ process.env.MONGO_ATLAS_PW +"@mobile.hu6gmck.mongodb.net/?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true } 
 ).then(() => {
 		console.log("pripojeny");
